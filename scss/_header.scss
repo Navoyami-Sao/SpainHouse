@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1240px;
+    width: 100%;
+    margin: 20px auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__left{
+            gap: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &__ul{
+                font-family: Open Sans;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+                &__li{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            &__second__ul{
+                font-family: Open Sans;
+                display: flex;
+                justify-content: center;
+                align-items:center;
+                gap: 5px;
+                &__li{
+                    &_a{
+                        color: gray;
+                    }
+                    &_an{
+                        color: gray;
+                        border: 1px solid gray;
+                    }
+                }
+            }
+        }
+    }
+    &__bottom{
+        background-image: url(../images/tom-wheatley-QiJ-jdv-6t0-unsplash\ 1.png);
+        width: 100%;
+        background-image: rgba(128, 128, 128, 0.5);
+        height: 657px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.7;
+        justify-content: center;
+        align-items: center;
+        padding-top: 250px;
+        &_h1{
+            font-family: Playfair Display SC;
+            color:white;
+            font-size: 96px;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+        }
+        &_text{
+            font-family: Open Sans;
+            text-align: center;
+            font-size: 18px;
+            color: white;
+        }
+    }
+}
+@media (max-width:700px){
+    .header{
+        &__top{
+            padding-left: 10px;
+            padding-right: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &__left{
+                gap: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                &__ul{
+                    display: none;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 30px;
+                    &__li{
+                        display: none;
+                    }
+                }
+                &__second__ul{
+                    display: none;
+                    justify-content: center;
+                    align-items:center;
+                    gap: 5px;
+                    &__li{
+                        &_a{
+                            color: gray;
+                        }
+                        &_an{
+                            color: gray;
+                            border: 1px solid gray;
+                        }
+                    }
+                }
+            }
+        }
+        &__bottom{
+            background-image: url(../images/tom-wheatley-QiJ-jdv-6t0-unsplash\ 1.png);
+            width: 100%;
+            background-image: rgba(128, 128, 128, 0.5);
+            height: 657px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.7;
+            justify-content: center;
+            align-items: center;
+            padding-top: 250px;
+            &_h1{
+                color: rgba(255, 255, 255, 1);
+                font-size: 35px;
+                display: flex;
+                font-weight: 700;
+                align-items:center;
+                justify-content: center;
+            }
+            &_text{
+                text-align: center;
+                font-size: 14px;
+                color: white;
+            }
+        }
+    }
+}

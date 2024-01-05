@@ -1,0 +1,993 @@
+.main{
+    &__section__all{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        gap: 100px;
+        &__left{
+            &__h2{
+                font-family: Playfair Display SC;
+                font-size: 35px;
+                font-weight: 400;
+                line-height: 47px;
+                text-align: left;
+                color: gray;
+            }
+            &__text{
+                font-family: Open Sans;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 32px;
+                width: 574px;
+                text-align: left;
+                margin-top: 50px;
+            }
+            &__h3{
+                font-family: Playfair Display SC;
+                margin-top: 50px;
+                color: gray;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 28px;
+                letter-spacing: 0em;
+                text-align: left;
+
+            }
+        }
+        &__right{
+            &__border{
+                border: 1px solid gray;
+                width: 492px;
+                height: 387px;
+                &_img{
+                    margin-left: 60px;
+                    transform: translate(-0px ,-50px);
+                }
+            }
+        }
+    }
+    &__section__rek{
+        margin-top: 200px;
+        &_title{
+            font-family: Playfair Display SC;
+            text-align: center;
+            color:gray;
+            font-size: 35px;
+            font-weight: 400;
+        }
+        &_text{
+            font-family: Open Sans;
+            text-align: center;
+            line-height: 32px;
+            margin-top: 20px;
+        }
+        &__cards{
+            margin-top: 50px;
+            display: flex;
+            gap: 40px;
+            flex-wrap: wrap;
+            position: relative;
+            &__card{
+                box-shadow: 0px 1px 10px 0px;
+                width: 392px;
+                height: 994px;
+                &__top{
+                    background-image: url(../images/3\ 1\ \(2\).png);
+                    width: 392px;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    height: 804px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    &__img{
+                        background-color: gray;
+                        width: 29px;
+                        padding-top: 5px;
+                        padding-left: 5px;
+                        align-items: center;
+                        height: 33px;
+                    }
+                }
+                &__bottom{
+                    width: 392px;
+                    height: 190px;
+                    margin-left: 10px;
+                    margin-top: 10px;
+                    &__border{
+                        border: 1px solid black;
+                        width: 374px;
+                        height: 171px;
+                        &__text{
+                            margin-top: 10px;
+                            color: gray;
+                            font-weight: 400;
+                            text-align: center;
+                        }
+                        &__title{
+                            text-align: center;
+                            color: gray;
+                            margin-top: 5px;
+                            font-weight: 700;
+                        }
+                        &__cost{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            &__aid{
+                                font-weight: 600;
+                                font-size: 18px;
+                                text-align: center;
+                                margin-top: 10px;
+                            }
+                        }
+                        &__texts{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 40px;
+                            &__home{
+                                color: gray;
+                                margin-top: 10px;
+                            }
+                        }
+                        &__bottom{
+                            text-align: center;
+                            color: gray;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+            &__card__second{
+                box-shadow: 0px 1px 10px 0px;
+                width: 808px;
+                height: 532px;
+                &__top{
+                   background-image: url(../images/BBV\ 1.png); 
+                   background-repeat: no-repeat;
+                   background-size: cover;
+                   width: 808px;
+                   height: 342px;
+                   display: flex;
+                   align-items: center;
+                   justify-content: space-between;
+                   padding-left: 10px;
+                   padding-right: 10px;
+                   &__img{
+                    background-color: gray;
+                    width: 29px;
+                    padding-top: 5px;
+                    padding-left: 5px;
+                    align-items: center;
+                    height: 33px;
+                   }
+                }
+                &__bottom{
+                    margin-top: 10px;
+                    margin-left: 10px;
+                    height: 190px;
+                    width: 808px;
+                    &__border{
+                        border: 1px solid gray;
+                        width: 790px;
+                        height: 171px;
+                        &__text{
+                            margin-top: 10px;
+                            color: gray;
+                            font-weight: 400;
+                            text-align: center;
+                        }
+                        &__title{
+                            text-align: center;
+                            color: gray;
+                            margin-top: 5px;
+                            font-weight: 700;
+                        }
+                        &__cost{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            &__aid{
+                                font-weight: 600;
+                                font-size: 18px;
+                                text-align: center;
+                                margin-top: 10px;
+                            }
+                        }
+                        &__texts{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 40px;
+                            &__home{
+                                color: gray;
+                                margin-top: 10px;
+                            }
+                        }
+                        &__bottom{
+                            text-align: center;
+                            color: gray;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+            &__card__third{
+                box-shadow: 0px 1px 10px 0px;
+                width: 392px;
+                height: 436px;
+                position: absolute;
+                top: 557px;
+                left: 435px;
+                &__top{
+                    background-image: url(../images/Corner\ view\ 1.png); 
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    display: flex;
+                    width: 392px;
+                    height: 246px;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    &__img{
+                     background-color: gray;
+                     width: 29px;
+                     padding-top: 5px;
+                     padding-left: 5px;
+                     align-items: center;
+                     height: 33px;
+                    }
+                 }
+                 &__bottom{
+                    width: 392px;
+                    height: 190px;
+                    margin-left: 10px;
+                    margin-top: 10px;
+                    &__border{
+                        border: 1px solid black;
+                        width: 374px;
+                        height: 171px;
+                        &__text{
+                            margin-top: 10px;
+                            color: gray;
+                            font-weight: 400;
+                            text-align: center;
+                        }
+                        &__title{
+                            text-align: center;
+                            color: gray;
+                            margin-top: 5px;
+                            font-weight: 700;
+                        }
+                        &__cost{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            &__aid{
+                                font-weight: 600;
+                                font-size: 18px;
+                                text-align: center;
+                                margin-top: 10px;
+                            }
+                        }
+                        &__texts{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 40px;
+                            &__home{
+                                color: gray;
+                                margin-top: 10px;
+                            }
+                        }
+                        &__bottom{
+                            text-align: center;
+                            color: gray;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+            &__card__ended{
+                box-shadow: 0px 1px 10px 0px;
+                width: 392px;
+                height: 436px;
+                position: absolute;
+                top: 557px;
+                left: 845px;
+                &__top{
+                    background-image: url(../images/006_PEDROJAEN_DJI_0815\ 1.png); 
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    display: flex;
+                    width: 392px;
+                    height: 246px;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    &__img{
+                     background-color: gray;
+                     width: 29px;
+                     padding-top: 5px;
+                     padding-left: 5px;
+                     align-items: center;
+                     height: 33px;
+                    }
+                 }
+                 &__bottom{
+                    width: 392px;
+                    height: 190px;
+                    margin-left: 10px;
+                    margin-top: 10px;
+                    &__border{
+                        border: 1px solid black;
+                        width: 374px;
+                        height: 171px;
+                        &__text{
+                            margin-top: 10px;
+                            color: gray;
+                            font-weight: 400;
+                            text-align: center;
+                        }
+                        &__title{
+                            text-align: center;
+                            color: gray;
+                            margin-top: 5px;
+                            font-weight: 700;
+                        }
+                        &__cost{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            &__aid{
+                                font-weight: 600;
+                                font-size: 18px;
+                                text-align: center;
+                                margin-top: 10px;
+                            }
+                        }
+                        &__texts{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 40px;
+                            &__home{
+                                color: gray;
+                                margin-top: 10px;
+                            }
+                        }
+                        &__bottom{
+                            text-align: center;
+                            color: gray;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    &__bottom__btn{
+        width: 282px;
+        height: 56px;
+        background-color: rgba(128, 128, 128, 1);
+        border: none;
+        margin-top: 50px;
+        margin-left: 500px;
+        &__a{
+            color: white;
+            text-align: center;
+        }
+    }
+    &__hr{
+        width: 100%;
+        color: rgba(128, 128, 128, 1);
+        margin-top: 40px;
+        height: 2px;
+    }
+    &__section__four{
+        &__insta{
+            text-align: center;
+        }
+        &__photos{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 54px;
+            margin-top: 50px;
+            text-align: center;
+        }
+        &__button{
+            width: 282px;
+            height: 56px;
+            background-color:rgba(128, 128, 128, 1);
+            color: white;
+            border: none;
+            margin-top: 20px;
+            margin-left: 490px;
+        }
+    }
+    &__section__five{
+        &__wrapper{
+            margin-top: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &__left{
+                &__border{
+                    border: 1px solid gray;
+                    width: 492px;
+                    height: 387px;
+                    &__img{
+                        margin-left: 60px;
+                        transform: translate(-0px ,-50px);
+                    }
+                }
+            }
+            &__right{
+                margin-left: 100px;
+                &__title{
+                    font-size: 35px;
+                    font-weight: 400;
+                    line-height: 47px;
+                    color:gray;
+                }
+                &__about{
+                    font-family: Open Sans;
+                    margin-top: 30px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    &__span{
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                }
+                &__text{
+                    margin-top: 30px;
+                    font-family: Open Sans;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                }
+                &__lang{
+                    font-family: Open Sans;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    margin-top: 30px;
+                }
+                &__button{
+                    width: 282px;
+                    height: 56px;
+                    border: 2px solid gray;
+                    color:gray;
+                    font-family: Playfair Display SC;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    letter-spacing: 0.2em;
+                    // text-align: center;
+                    margin-top: 60px;
+                    margin-right: 350px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 700px){
+    .main{
+        &__section__all{
+            display: inline-block;
+            margin-top: 100px;
+            gap: 100px;
+            &__left{
+                padding-left: 20px;
+                &__h2{
+                    font-size: 35px;
+                    font-weight: 400;
+                    line-height: 47px;
+                    color: gray;
+                    text-align: center;
+                }
+                &__text{
+                    text-align: center;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 32px;
+                    width: 350px;
+                    margin-top: 50px;
+                }
+                &__h3{
+                    text-align: center;
+                    margin-top: 50px;
+                    color: gray;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    letter-spacing: 0em;
+    
+                }
+            }
+            &__right{
+                &__border{
+                    border: 1px solid gray;
+                    width: 387px;
+                    height: 400px;
+                    margin-top: 100px;
+                    &_img{
+                        margin-left: 60px;
+                        width: 375px;
+                        height: 262px;
+                        transform: translate(-45px ,60px);
+                    }
+                }
+            }
+        }
+        &__section__rek{
+            margin-top: 80px;
+            &_title{
+                text-align: center;
+                color:gray;
+                font-size: 35px;
+                font-weight: 400;
+            }
+            &_text{
+                text-align: center;
+                line-height: 32px;
+                margin-top: 20px;
+                display: none;
+            }
+            &__cards{
+                margin-top: 50px;
+                display: flex;
+                gap: 40px;
+                flex-wrap: wrap;
+                position: relative;
+                &__card{
+                    box-shadow: 0px 1px 10px 0px;
+                    width: 392px;
+                    height: 532px;
+                    &__top{
+                        background-image: url(../images/3\ 1\ \(2\).png);
+                        width: 392px;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        height: 342px;
+                        background-position: center;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        &__img{
+                            background-color: gray;
+                            width: 29px;
+                            padding-top: 5px;
+                            padding-left: 5px;
+                            align-items: center;
+                            height: 33px;
+                        }
+                    }
+                    &__bottom{
+                        width: 392px;
+                        height: 190px;
+                        margin-left: 10px;
+                        margin-top: 10px;
+                        &__border{
+                            border: 1px solid black;
+                            width: 374px;
+                            height: 171px;
+                            &__text{
+                                margin-top: 10px;
+                                color: gray;
+                                font-weight: 400;
+                                text-align: center;
+                            }
+                            &__title{
+                                text-align: center;
+                                color: gray;
+                                margin-top: 5px;
+                                font-weight: 700;
+                            }
+                            &__cost{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 10px;
+                                &__aid{
+                                    font-weight: 600;
+                                    font-size: 18px;
+                                    text-align: center;
+                                    margin-top: 10px;
+                                }
+                            }
+                            &__texts{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                gap: 40px;
+                                &__home{
+                                    color: gray;
+                                    margin-top: 10px;
+                                }
+                            }
+                            &__bottom{
+                                text-align: center;
+                                color: gray;
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+                }
+                &__card__second{
+                    box-shadow: 0px 1px 10px 0px;
+                    width: 392px;
+                    height: 532px;
+                    &__top{
+                       background-image: url(../images/BBV\ 1.png); 
+                       background-repeat: no-repeat;
+                       background-size: cover;
+                       width: 392px;
+                       height: 342px;
+                       display: flex;
+                       align-items: center;
+                       justify-content: space-between;
+                       padding-left: 10px;
+                       padding-right: 10px;
+                       &__img{
+                        background-position: center;
+                        background-color: gray;
+                        width: 29px;
+                        padding-top: 5px;
+                        padding-left: 5px;
+                        align-items: center;
+                        height: 33px;
+                       }
+                    }
+                    &__bottom{
+                        margin-top: 10px;
+                        margin-left: 5px;
+                        height: 190px;
+                        width: 392px;
+                        &__border{
+                            border: 1px solid black;
+                            width: 380px;
+                            height: 171px;
+                            &__text{
+                                margin-top: 10px;
+                                color: gray;
+                                font-weight: 400;
+                                text-align: center;
+                            }
+                            &__title{
+                                text-align: center;
+                                color: gray;
+                                margin-top: 5px;
+                                font-weight: 700;
+                            }
+                            &__cost{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 10px;
+                                &__aid{
+                                    font-weight: 600;
+                                    font-size: 18px;
+                                    text-align: center;
+                                    margin-top: 10px;
+                                }
+                            }
+                            &__texts{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                gap: 40px;
+                                &__home{
+                                    color: gray;
+                                    margin-top: 10px;
+                                }
+                            }
+                            &__bottom{
+                                text-align: center;
+                                color: gray;
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+                }
+                &__card__third{
+                    box-shadow: 0px 1px 10px 0px;
+                    width: 392px;
+                    height: 436px;
+                    position: static;
+                    &__top{
+                        background-image: url(../images/Corner\ view\ 1.png); 
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        display: flex;
+                        width: 392px;
+                        height: 246px;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        &__img{
+                         background-color: gray;
+                         width: 29px;
+                         padding-top: 5px;
+                         padding-left: 5px;
+                         align-items: center;
+                         height: 33px;
+                        }
+                     }
+                     &__bottom{
+                        width: 392px;
+                        height: 190px;
+                        margin-left: 10px;
+                        margin-top: 10px;
+                        &__border{
+                            border: 1px solid black;
+                            width: 374px;
+                            height: 171px;
+                            &__text{
+                                margin-top: 10px;
+                                color: gray;
+                                font-weight: 400;
+                                text-align: center;
+                            }
+                            &__title{
+                                text-align: center;
+                                color: gray;
+                                margin-top: 5px;
+                                font-weight: 700;
+                            }
+                            &__cost{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 10px;
+                                &__aid{
+                                    font-weight: 600;
+                                    font-size: 18px;
+                                    text-align: center;
+                                    margin-top: 10px;
+                                }
+                            }
+                            &__texts{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                gap: 40px;
+                                &__home{
+                                    color: gray;
+                                    margin-top: 10px;
+                                }
+                            }
+                            &__bottom{
+                                text-align: center;
+                                color: gray;
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+                }
+                &__card__ended{
+                    box-shadow: 0px 1px 10px 0px;
+                    width: 392px;
+                    height: 436px;
+                    position: static;
+                    &__top{
+                        background-image: url(../images/006_PEDROJAEN_DJI_0815\ 1.png); 
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        display: flex;
+                        width: 392px;
+                        height: 246px;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        &__img{
+                         background-color: gray;
+                         width: 29px;
+                         padding-top: 5px;
+                         padding-left: 5px;
+                         align-items: center;
+                         height: 33px;
+                        }
+                     }
+                     &__bottom{
+                        width: 392px;
+                        height: 190px;
+                        margin-left: 10px;
+                        margin-top: 10px;
+                        &__border{
+                            border: 1px solid black;
+                            width: 374px;
+                            height: 171px;
+                            &__text{
+                                margin-top: 10px;
+                                color: gray;
+                                font-weight: 400;
+                                text-align: center;
+                            }
+                            &__title{
+                                text-align: center;
+                                color: gray;
+                                margin-top: 5px;
+                                font-weight: 700;
+                            }
+                            &__cost{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 10px;
+                                &__aid{
+                                    font-weight: 600;
+                                    font-size: 18px;
+                                    text-align: center;
+                                    margin-top: 10px;
+                                }
+                            }
+                            &__texts{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                gap: 40px;
+                                &__home{
+                                    color: gray;
+                                    margin-top: 10px;
+                                }
+                            }
+                            &__bottom{
+                                text-align: center;
+                                color: gray;
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+    
+        }
+        &__bottom__btn{
+            width: 282px;
+            height: 56px;
+            background-color: rgba(128, 128, 128, 1);
+            border: none;
+            margin-left: 60px;
+            margin-top: 50px;
+            &__a{
+                color: white;
+                text-align: center;
+            }
+        }
+        &__hr{
+            display: none;
+            width: 100%;
+            color: rgba(128, 128, 128, 1);
+            margin-top: 40px;
+            height: 2px;
+        }
+        &__section__four{
+            display: block;
+            margin-top: 50px;
+            &__insta{
+                text-align: center;
+            }
+            &__photos{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 10px;
+                margin-top: 50px;
+                text-align: center;
+                &__photo{
+                width: 101px;
+                height: 100px;
+                }
+            }
+            &__button{
+                width: 282px;
+                height: 56px;
+                background-color:rgba(128, 128, 128, 1);
+                color: white;
+                border: none;
+                margin-top: 50px;
+                margin-left: 50px;
+            }
+        }
+        &__section__five{
+            &__wrapper{
+                margin-top: 100px;
+                display: block;
+                justify-content: center;
+                align-items: center;
+                &__left{
+                    &__border{
+                        border: 1px solid gray;
+                        width: 390px;
+                        height: 504px;
+                        &__img{
+                            margin-top: 75px;
+                            color: white;
+                            margin-left: 25px;
+                            width: 334px;
+                            height: 454px;
+                            // transform: translate(-0px ,-50px);
+                        }
+                    }
+                }
+                &__right{
+                    margin-left: 0px;
+                    &__title{
+                        display: none;
+                        font-size: 35px;
+                        font-weight: 400;
+                        line-height: 47px;
+                        color:gray;
+                    }
+                    &__about{
+                        font-family: Open Sans;
+                        margin-top: 30px;
+                        font-size: 16px;
+                        font-weight: 400;
+                        text-align: center;
+                        &__span{
+                            font-size: 16px;
+                            font-weight: 700;
+                        }
+                    }
+                    &__text{
+                        margin-top: 30px;
+                        font-family: Open Sans;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        letter-spacing: 0em;
+                        text-align: center;
+                    }
+                    &__lang{
+                        font-family: Open Sans;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        letter-spacing: 0em;
+                        text-align: center;
+                        margin-top: 30px;
+                    }
+                    &__button{
+                        width: 282px;
+                        height: 56px;
+                        border: 2px solid gray;
+                        color:gray;
+                        font-family: Playfair Display SC;
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 28px;
+                        letter-spacing: 0.2em;
+                        text-align: center;
+                        margin-top: 60px;
+                        margin-left: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
