@@ -690,12 +690,12 @@ a {
   }
   .main__section__rek__cards__card {
     box-shadow: 0px 1px 10px 0px;
-    width: 392px;
+    width: 388px;
     height: 532px;
   }
   .main__section__rek__cards__card__top {
     background-image: url(../images/3\ 1\ \(2\).png);
-    width: 392px;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     height: 342px;
@@ -766,14 +766,14 @@ a {
   }
   .main__section__rek__cards__card__second {
     box-shadow: 0px 1px 10px 0px;
-    width: 392px;
+    width: 388px;
     height: 532px;
   }
   .main__section__rek__cards__card__second__top {
     background-image: url(../images/BBV\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 392px;
+    width: 100%;
     height: 342px;
     display: flex;
     align-items: center;
@@ -842,7 +842,7 @@ a {
   }
   .main__section__rek__cards__card__third {
     box-shadow: 0px 1px 10px 0px;
-    width: 392px;
+    width: 388px;
     height: 436px;
     position: static;
   }
@@ -851,7 +851,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    width: 392px;
+    width: 100%;
     height: 246px;
     align-items: center;
     justify-content: space-between;
@@ -918,7 +918,7 @@ a {
   }
   .main__section__rek__cards__card__ended {
     box-shadow: 0px 1px 10px 0px;
-    width: 392px;
+    width: 388px;
     height: 436px;
     position: static;
   }
@@ -927,7 +927,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    width: 392px;
+    width: 100%;
     height: 246px;
     align-items: center;
     justify-content: space-between;
